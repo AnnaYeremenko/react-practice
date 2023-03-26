@@ -1,10 +1,11 @@
+import { WordsListItem } from "components/WodsListItem/WordsListItem";
+
 export const WordList = () => {
     return (
         <div>
             <ul>
-                <li>
-                </li>
+                <WordsListItem />
             </ul>
         </div>
     )
-}
+};
